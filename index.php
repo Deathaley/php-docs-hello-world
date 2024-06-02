@@ -79,7 +79,7 @@ if (isset($_SESSION['mail']) && $_SESSION['mail'] !== "") {
     </div>
     </div>
     <div class="container mt-5">
-    <h2>Filtrer les données</h2>
+    <h2>afficher les vins</h2>
     <form id="filterForm" method="POST">
         <!-- Ajoutez ici les champs de filtrage, par exemple: -->
         <div class="form-group">
