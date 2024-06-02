@@ -1,0 +1,75 @@
+body.connexion-page {
+    background-image: url(./image/connexion_background.jpg);
+    background-size: cover; /* Faire en sorte que l'image couvre tout l'espace disponible */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-position: center; /* Centrer l'image */
+    background-attachment: fixed; /* Fixer l'image de fond lors du défilement */
+}
+   #container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+   }
+   /* Bordered form */
+   form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   }
+   #container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+   }
+   
+   /* Full-width inputs */
+   input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+   }
+   
+   /* Set a style for all buttons */
+   input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   }
+   input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+   }
+   #carouselExampleIndicators .carousel-item img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .small-item {
+    height: 500px;
+    width: 100%;
+  }
+  .navbar-nav.nav-item.nav-link img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.navbar-nav.nav-item.dropdown-menu {
+    top: 60px;
+    right: 0;
+    left: auto;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
